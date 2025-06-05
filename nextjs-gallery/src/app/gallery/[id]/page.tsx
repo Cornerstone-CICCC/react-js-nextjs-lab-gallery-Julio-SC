@@ -6,7 +6,7 @@ async function getPhoto(id: string) {
 
   return {
     ...photo,
-    url: `https://placehold.co/600x600?text=%20`, // sin texto dentro
+    url: `https://placehold.co/600x600?text=%20`, 
   };
 }
 

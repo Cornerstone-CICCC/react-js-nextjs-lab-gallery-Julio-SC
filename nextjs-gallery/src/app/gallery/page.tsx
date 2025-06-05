@@ -7,8 +7,8 @@ async function fetchPhotos() {
 
   return data.map((photo: any) => ({
     ...photo,
-    thumbnailUrl: `https://placehold.co/300x300?text=%20`, // sin texto
-    url: `https://placehold.co/600x600?text=%20`,           // sin texto
+    thumbnailUrl: `https://placehold.co/300x300?text=%20`, 
+    url: `https://placehold.co/600x600?text=%20`,          
   }));
 }
 
